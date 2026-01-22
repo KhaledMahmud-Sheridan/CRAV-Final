@@ -1,0 +1,225 @@
+extends base
+block content
+    script(src="/script1.js")
+    script(src='https://cdn.plot.ly/plotly-latest.min.js')
+    script.
+      function fetchData() {
+        fetch('#{ap}'+'/vin/'+'#{vin}'+'/timestamp/'+'2023-04-22T12:44:03.343Z')
+            .then(response => response.json())
+            .then(message => {
+                console.log(message);
+                //we have the data we need to add it to the dict-data values 
+                //one data is coming but it does have a list of parameterset-> each params has a value 
+                //update the graph once you receive new data 
+                if(message.data[0]){
+                    for (const r in message.data[0].parameterSet ){
+                    //r is the key let's setup the value 
+                    if(!t.hasOwnProperty(r)){
+                        t[r] = {};
+                    }
+                    t[r][message.data[0].timestamp] = message.data[0].parameterSet[r];  
+
+                } 
+
+                //for all the divs give me different value 
+                //- xLData.push(new Date());
+                //- yLData.push(Math.random())
+                //grab the specific values for parameter and then plot it 
+                
+                for(var key in t ){
+                    
+                    updatePlot(key); 
+                }
+            
+                
+                }
+                else{
+                    alert("Make sure your car is connected to get ");
+                }  
+            })
+            .catch(error => {
+                console.error('Error refreshing data:', error);
+            });
+      }
+      if (#{isLive} == true ){
+        setInterval(fetchData, '#{uploadInt}'*1000);
+      }
+
+    | &nbsp;
+    header.flex.column.space-evenly.wide
+        h1 Logged Data and Visualization
+        h5 Please enter your vehicle information below
+        | &nbsp;
+        
+        
+    //- form to graph the data 
+    main.flex.column.start.wide 
+        form#myForm( method="POST" , action="").flex.column.space-evenly.wide.form
+            div.flex.column.space-between.form-gap
+                div.form-group.wide
+                    label.labelTxt.for("vinInput").form-label Vehicle VIN
+                    input.form-input(type="text", name="vin", placeholder="Enter vehicle ID",value ="ABCD1111111111111" id = vinInput, required).form-control.inputForm
+                    div.alert.alert-danger
+                        p Hint: Please try one of these vin numbers -> ABCD1111111111111, J1010101010101010,  G7777777777777777
+
+
+                div.form-group.wide
+                    label.labelTxt.form-label Logged Data
+                div.form-group.wide
+                    input(required, type='radio', name='logged data', value='Live Data', id= 'LiveData', , onclick="handleRadioButtonClick(this)")
+                    label(for='LiveData') Live Data
+                    | &nbsp;
+                    | &nbsp;
+                    input(required,type='radio', name='logged data', value='Past Data', onclick="handleRadioButtonClick(this)")
+                    label(for='Past Data') Past Data
+
+                div.form-group.wide#inputHideStart
+                    - const d = new Date().toJSON().slice(0, 16);
+                    label.labelTxt.for("start_time") Start Time
+                    input#start_time(type="datetime-local" name="start_date", min="2021-07-07T00:00", max = d).form-control.inputForm
+
+                    div.alert.alert-danger
+                        p Hint: Please choose any date before January 2023
+                
+                div.form-group.wide#inputHideEnd
+                    label.labelTxt.for("end_time") End Time
+                    input#end_time( type="datetime-local" name="end_date", min="2021-07-07T00:00", max = d).form-control.inputForm
+                    div.alert.alert-danger
+                        p Hint: Please choose today's date
+                
+            button.btn.btn-lg.btn-dark(type='submit') Submit
+
+        | &nbsp;
+            
+        h3.text-danger #{message}
+
+
+    //- details about the page functionality
+    main.flex.column.start.wide.pCDetails
+        if Object.keys(dict_data).length === 0
+            .card.card-primary.pCDetails
+                .card-header Visualization Details
+                .card-body(id="idVehicleDetails") 
+                    p.pCDetails Vehicle Car Number: Provide the unique identification number of your vehicle.
+                    p.pCDetails Start Time: Enter the date and time when data collection should begin.
+                    p.pCDetails End Time: Choose the date and time to conclude data collection.
+                    p.pCDetails Using the collected data within this specified period, we will generate plots and visualizations to showcase relevant information about your vehicle.
+
+
+    //- params checkboxes list
+    if Object.keys(dict_data).length != 0
+        main.flex.column.wide
+            div.wide-checkbox.row.white
+                p Check the parameters to see the graphs:
+                -var count = 0
+                each val1 , key1 in dict_data
+                    if(count === 0) 
+                        -count = 1
+                        div.card.col-sm-4
+                            div.card-body
+                                input(type="checkbox" name="element one", id = key1,  onchange="handleCheckboxChange(this)")
+                                label(for = key1).labelTxt #{key1}
+                    else if(count === 1)
+                        -count = 2
+                        div.card.col-sm-4
+                            div.card-body
+                                input(type="checkbox" name="element one", id = key1,  onchange="handleCheckboxChange(this)")
+                                label(for = key1).labelTxt #{key1}
+                    else if(count === 2)
+                        - count = 0
+                        div.card.col-sm-4
+                            div.card-body
+                                input(type="checkbox" name="element one", id = key1,  onchange="handleCheckboxChange(this)")
+                                label(for = key1).labelTxt #{key1}
+                if count === 2
+                    div.card.col-sm-4
+                        div.card-body
+                else if count === 1
+                    div.card.col-sm-4
+                            div.card-body 
+                    div.card.col-sm-4
+                        div.card-body
+
+
+
+    //- plotting the graph and then show them based on the checking of the check boxes          
+    if Object.keys(dict_data) != 0 
+        - let l = 'xLData';
+        - let j = 'yLData';
+        
+        each val1 , key1 in dict_data 
+            - var xData = [];
+            - var yData =[];
+            if Object.keys(val1) != 0 
+                each val2 , key2 in val1
+                    - yData.push(val2)
+                    - xData.push(`'${key2}'`)
+                - xData = xData.sort()
+                    div.graph-div(id = `div-${key1}` )
+                    script.
+                        var plotData = [{
+                            x: [#{xData}] ,
+                            y: [#{yData}],
+                            type: 'scatter'
+                        }];
+                        var layout = {
+                            title: `#{key1}`,
+                            showlegend: false
+                        };
+                        Plotly.newPlot('div-#{key1}', plotData, layout, {scrollZoom: true})
+            else 
+                div.graph-div(id = `div-${key1}`)
+                script.
+                    // Create a plot
+                    var plotConfig = { 
+                    responsive: true 
+                    };
+ 
+                    plotxVar[`#{l}` + `#{key1}`] = [] 
+                    plotyVar[`#{j}` + `#{key1}`] = []
+                    
+                    var plotData = [
+                    {
+                        x: plotxVar[`#{l}` + `#{key1}`],
+                        y:  plotyVar[`#{j}` + `#{key1}`],
+                        type: 'scatter',
+                        mode: 'lines',
+                    }];
+                    var layout = {
+                        title: `#{key1}`,
+                        showlegend: false
+                    };
+                    Plotly.newPlot('div-#{key1}', plotData,layout, plotConfig);
+
+
+                    // Function to update data and redraw the plot
+                    function updatePlot(key) {
+                        plotxVar[`#{l}` + key].push(new Date());
+                        plotyVar[`#{j}` + key].push(Math.random())
+                        Plotly.redraw(document.getElementById(`div-${key}`));
+                    }
+
+
+                    
+
+
+
+                                        
+
+
+                            
+
+    
+
+ 
+        
+
+              
+                   
+                
+          
+
+
+
+
+    

@@ -1,0 +1,27 @@
+extends base
+include mixins/_obd2paramTableRow
+
+block content
+  | &nbsp;
+  header.flex.column.space-evenly.wide
+    h1 OBD2 Parameter List
+    h5 text line related information about OBD2
+    | &nbsp;
+  table.table.table-striped
+    thead
+      tr
+        th Name
+        th Short Name
+        th Service ID
+        th Parameter ID
+        th CAN Request Code
+        th Description
+        th Unit 
+        th Min 
+        th Max
+    tbody
+      each item in data
+        +tableRow(item)
+    tfoot
+      tr
+        th(colspan='9')

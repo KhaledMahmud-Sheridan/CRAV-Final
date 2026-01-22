@@ -1,0 +1,75 @@
+extends base
+
+block content
+  script(src="/script1.js")
+  | &nbsp;
+  header.flex.column.space-evenly.wide
+    h1 Vehicle Registration Form 
+    h5 Please enter the new vehicle information below
+        
+
+  main.flex.column.start.wide
+    form#myForm( method="POST" , action='').flex.column.space-evenly.wide.form
+      div.flex.column.space-between.form-gap
+        div.form-group.wide
+          h4 Vehicle Info
+        div.form-group.wide
+          label(for='vehicleInfo.vin') VIN:
+          input#vehicleInfo-vin.form-control(type='text' placeholder='VIN' name='vehicleInfo.vin' required='true' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.vin) )
+
+        div.form-group.wide
+          label(for='vehicleInfo.make') Make:
+          input#vehicleInfo-make.form-control(type='text' placeholder='Make' name='vehicleInfo.make' required='true' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.make) )
+
+        div.row.form-group.wide2
+          
+          div.col-sm-6
+            label(for='vehicleInfo.trim') Trim:
+            input#vehicleInfo-trim.form-control(type='text' placeholder='Trim' name='vehicleInfo.trim' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.trim) )
+
+          div.col-sm-4
+            label(for='vehicleInfo.model') Model:
+            input#vehicleInfo-model.form-control(type='text' placeholder='Model' name='vehicleInfo.model' required='true' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.model) )
+          
+          div.col-sm-2
+            label(for='vehicleInfo.year') Year:
+            input#vehicleInfo-year.form-control(type='number' placeholder='Year' name='vehicleInfo.year' required='true' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.year) )
+
+        div.form-group.wide
+          label(for='vehicleInfo.featureSet') Feature Set:
+          input#vehicleInfo-featureSet.form-control(type='text' placeholder='Features' name='vehicleInfo.featureSet' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.featureSet) )
+
+        div.form-group.wide
+          label(for='vehicleInfo.scannerID') Scanner ID:
+          input#vehicleInfo-scannerID.form-control(type='text' placeholder='Scanner ID' name='vehicleInfo.scannerID' required='true' value=(undefined===vehicle ? '' : vehicle.vehicleInfo.scannerID) )
+
+        div.form-group.wide
+          h4 Owner Info
+        div.form-group.wide
+          label(for='user.userID') User ID (or Email):
+          input#user-userID.form-control(type='text' placeholder='User ID (emial)' name='user.userID' required='true' value=(undefined===vehicle ? '' : vehicle.user.userID) )
+          label(for='user.userKey') User Secret:
+          input#user-userKey.form-control(type='text' placeholder='User Secret (password)' name='user.userKey' required='true' value=(undefined===vehicle ? '' : vehicle.user.userKey) )
+        div.form-group.wide
+          h4 logged Info
+       
+        div.form-group.wide
+          label(for='logInfo.logInterval') Log Interval (sec):
+          input#logInfo-logInterval.form-control(type='text' placeholder='Log Interval' name='logInfo.logInterval' required='true' value=(undefined===vehicle ? '300' : vehicle.logInfo.logInterval) )
+          label(for='logInfo.uploadInterval') Upload Interval (sec):
+          input#logInfo-uploadInterval.form-control(type='text' placeholder='Upload Interval' name='logInfo.uploadInterval' required='true' value=(undefined===vehicle ? '600' : vehicle.logInfo.uploadInterval) )
+
+        div.form-group.wide.form-check.form-switch
+          label(for='logInfo.logActive') Log Active 
+            p 
+              small Connect the car and then update this field
+          input#logInfo-logActive.form-check-input(type="checkbox" role="switch" name='logInfo.logActive' checked=false disabled)
+
+
+      button.btn.btn-lg.btn-dark(type='submit') Submit
+      | &nbsp;
+   
+  if errors
+    ul
+      for error in errors
+        li!= error.msg

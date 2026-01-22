@@ -1,0 +1,72 @@
+extends base
+
+block content
+  script(src="/modal.js")
+  | &nbsp;
+  header.flex.column.space-evenly.wide
+    h1 Vehicle Details
+    h5 text line related information about OBD2
+  | &nbsp;
+  .card.card-primary
+    .card-header VIN: #{vehicle.vehicleInfo.vin}
+    .card-body 
+      ul
+        li User ID: #{vehicle.user.userID}
+        li Make: #{vehicle.vehicleInfo.make} 
+        li Model: #{vehicle.vehicleInfo.model} 
+        li Trim: #{vehicle.vehicleInfo.trim}
+        li Year: #{vehicle.vehicleInfo.year} 
+        li Scanner ID: #{vehicle.vehicleInfo.scannerID} 
+  .card.card-primary 
+    .card-header Log Settings
+    .card-body
+      ul
+        li Log active: 
+          if vehicle.logInfo.logActive
+             span.text-primary.font-weight-bold Yes
+          else 
+            span.text-danger No
+        li Scan Interval: #{vehicle.logInfo.logInterval} sec
+        li Upload Interval: #{vehicle.logInfo.uploadInterval} sec
+  .card.card-primary 
+    .card-header Available Parameters: Logging State
+    .card-body
+      ul
+        each parameter in vehicle.logInfo.logParamSet 
+          if parameter.log
+            li #{parameter.name}: 
+              span.text-primary.font-weight-bold Yes
+          else
+            li #{parameter.name}: 
+              span.text-danger No
+        else 
+          li No parameter selected for logging
+  p
+
+
+    hr
+
+    
+    div.row.space-evenly
+
+      a.btn.btn-dark.col-sm-1(type='button' href=`/dealer/vehicle/update/vin/${vehicle.vehicleInfo.vin}`) Update vehicle
+      button.btn.btn-danger.col-sm-1(type='button' data-bs-toggle="modal" data-bs-target="#deleteModal") Delete vehicle
+
+
+  .modal.fade#deleteModal(tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true")
+    .modal-dialog
+      .modal-content
+        .modal-header
+          h5#deleteModalLabel.modal-title Confirm Delete
+          button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+        .modal-body Are you sure you want to delete the item?
+        .modal-footer
+          button.btn.btn-primary(type="button" data-bs-dismiss="modal") No
+          form(method='POST' action='/dealer/vehicle/delete')
+            div.form-group
+              input#vehicleid.form-control(type='hidden',name='vehicleid', required='true', value=`${vehicle._id}`)
+            button.btn.btn-primary(type='submit') Delete
+
+
+
+

@@ -1,0 +1,48 @@
+extends base
+
+block content
+  script(src="../script1.js")
+  | &nbsp;
+  header.flex.column.space-evenly.wide
+    h1 Registered Vehicle List
+    h5 Click the vin to view the vehicle details
+    | &nbsp;
+
+  table.table.table-striped.marginR
+    thaed  
+      tr
+        th VIN
+        th Make
+        th Model
+        th Year
+        th Scanner ID
+        th User ID
+        th Log Active
+        th Log Interval (min)
+        th Upload Interval (min)
+    tbody
+      each item in data
+        tr
+          td 
+            -
+              const urlvin = "http://127.0.0.1:4000/dealer/vehicle/vin/"+item.vehicleInfo.vin;
+              //onclick=`onclickcallback1('${urlvin}')`)
+            a.btn.btn-link.text-danger(href=urlvin)  #{item.vehicleInfo.vin}
+          td #{item.vehicleInfo.make}
+          td #{item.vehicleInfo.model}
+          td #{item.vehicleInfo.year}
+          td #{item.vehicleInfo.scannerID}
+          td #{item.user.userID}
+          - const logging=item.logInfo.logActive? "Yes":'No';
+          
+          td #{logging}
+          td #{item.logInfo.logInterval}
+          td #{item.logInfo.uploadInterval}
+    tfoot
+      tr
+        th(colspan='9')
+  //- hr
+  //- h3 Details
+  //- .card.card-primary
+  //-   .card-header Vehicles Details
+  //-   .card-body(id="idVehicleDetails") Click a vin to view the details
