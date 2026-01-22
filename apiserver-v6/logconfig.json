@@ -1,0 +1,73 @@
+{
+    "logParamSet": [
+        {
+            "serviceID": "S1",
+            "parameterID": "05",
+            "shortName": "EngineCoolantTemp",
+            "name": "S1_PID_05_EngineCoolantTemp",
+            "requestCode": "0201055555555555",
+            "description": "Engine coolant temperature",
+            "unit": "degC",
+            "min": -40,
+            "max": 215
+        },
+        {
+            "serviceID": "S1",
+            "parameterID": "0C",
+            "shortName": "EngineRPM",
+            "name": "S1_PID_0C_EngineRPM",
+            "requestCode": "02010C5555555555",
+            "description": "Engine speed",
+            "unit": "rpm",
+            "min": 0,
+            "max": 16384
+        },
+        {
+            "serviceID": "S1",
+            "parameterID": "0D",
+            "shortName": "VehicleSpeed",
+            "name": "S1_PID_0D_VehicleSpeed",
+            "requestCode": "02010D5555555555",
+            "description": "Vehicle speed",
+            "unit": "km/h",
+            "min": 0,
+            "max": 255
+        },
+        {
+            "serviceID": "S1",
+            "parameterID": "0F",
+            "shortName": "IntakeAirTemperature",
+            "name": "S1_PID_0F_IntakeAirTemperature",
+            "requestCode": "02010F5555555555",
+            "description": "Intake air temperature",
+            "unit": "degC",
+            "min": -40,
+            "max": 215
+        },
+        {
+            "serviceID": "S1",
+            "parameterID": "10",
+            "shortName": "MAFAirFlowRate",
+            "name": "S1_PID_10_MAFAirFlowRate",
+            "requestCode": "0201105555555555",
+            "description": "Mass air flow sensor air flow rate",
+            "unit": "grams/sec",
+            "min": 0,
+            "max": 655
+        },
+        {
+            "serviceID": "S1",
+            "parameterID": "1F",
+            "shortName": "TimeSinceEngStart",
+            "name": "S1_PID_1F_TimeSinceEngStart",
+            "requestCode": "02011F5555555555",
+            "description": "Run time since engine start",
+            "unit": "seconds",
+            "min": 0,
+            "max": 65535
+        }
+    ],
+    "logActive": true,
+    "logInterval": 5,
+    "uploadInterval": 10
+}

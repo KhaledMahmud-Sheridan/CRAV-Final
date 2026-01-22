@@ -1,0 +1,1202 @@
+[
+  {
+    "vehicleInfo": {
+      "vin": "A1111111111111111",
+      "make": "Toyota",
+      "model": "Camry",
+      "trim": "A",
+      "year": 2018,
+      "featureSet": [],
+      "scannerID": "00:11:27:27:33:11",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "abcd@abcd.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "B2222222222222222",
+      "make": "Nissan",
+      "model": "Murano",
+      "trim": "B",
+      "year": 2018,
+      "featureSet": [],
+      "scannerID": "00:22:27:27:33:22",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "efgh@efgh.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "C3333333333333333",
+      "make": "Ford",
+      "model": "Escape",
+      "trim": "G",
+      "year": 2019,
+      "featureSet": [],
+      "scannerID": "00:33:27:27:33:33",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "ijkl@ijkl.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "D4444444444444444",
+      "make": "BMW",
+      "model": "X3",
+      "trim": "X",
+      "year": 2022,
+      "featureSet": [],
+      "scannerID": "00:44:27:27:33:44",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "mnop@mnop.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "E5555555555555555",
+      "make": "Buick",
+      "model": "Enclave",
+      "trim": "E",
+      "year": 2021,
+      "featureSet": [],
+      "scannerID": "00:11:27:27:33:22",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "qrst@qrst.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "F6666666666666666",
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "A",
+      "year": 2021,
+      "featureSet": [],
+      "scannerID": "00:22:27:27:33:33",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "abcd@abcd.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "G7777777777777777",
+      "make": "Nissan",
+      "model": "Rogue",
+      "trim": "B",
+      "year": 2022,
+      "featureSet": [],
+      "scannerID": "00:33:27:27:33:44",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "efgh@efgh.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "H8888888888888888",
+      "make": "Ford",
+      "model": "Focus",
+      "trim": "G",
+      "year": 2023,
+      "featureSet": [],
+      "scannerID": "00:44:27:27:33:55",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "ijkl@ijkl.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "I9999999999999999",
+      "make": "BMW",
+      "model": "X5",
+      "trim": "X",
+      "year": 2018,
+      "featureSet": [],
+      "scannerID": "00:11:27:27:33:66",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "mnop@mnop.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "J1010101010101010",
+      "make": "GMC",
+      "model": "Yukon",
+      "trim": "E",
+      "year": 2020,
+      "featureSet": [],
+      "scannerID": "00:22:27:27:33:77",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "qrst@qrst.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "K1111111111111111",
+      "make": "Hyundai",
+      "model": "Ionic",
+      "trim": "A",
+      "year": 2022,
+      "featureSet": [],
+      "scannerID": "00:33:27:27:33:88",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "abcd@abcd.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": false,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  },
+  {
+    "vehicleInfo": {
+      "vin": "L1212121212121212",
+      "make": "volkswagen",
+      "model": "Atlas",
+      "trim": "B",
+      "year": 2020,
+      "featureSet": [],
+      "scannerID": "00:44:27:27:33:99",
+      "availableParamSet": [
+        "S1_PID_05_EngineCoolantTemp",
+        "S1_PID_0C_EngineRPM",
+        "S1_PID_0D_VehicleSpeed",
+        "S1_PID_0F_IntakeAirTemperature",
+        "S1_PID_10_MAFAirFlowRate",
+        "S1_PID_1F_TimeSinceEngStart",
+        "S1_PID_33_AbsBaroPres",
+        "S1_PID_46_AmbientAirTemp",
+        "S1_PID_5B_HybrBatPackRemLife",
+        "S1_PID_2F_FuelTankLevel"
+      ]
+    },
+    "user": {
+      "userID": "efgh@efgh.com",
+      "userKey": "pw12345"
+    },
+    "logInfo": {
+      "logParamSet": [
+        {
+          "serviceID": "S1",
+          "parameterID": "05",
+          "shortName": "EngineCoolantTemp",
+          "name": "S1_PID_05_EngineCoolantTemp",
+          "requestCode": "0201055555555555",
+          "description": "Engine coolant temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0C",
+          "shortName": "EngineRPM",
+          "name": "S1_PID_0C_EngineRPM",
+          "requestCode": "02010C5555555555",
+          "description": "Engine speed",
+          "unit": "rpm",
+          "min": 0,
+          "max": 16384
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0D",
+          "shortName": "VehicleSpeed",
+          "name": "S1_PID_0D_VehicleSpeed",
+          "requestCode": "02010D5555555555",
+          "description": "Vehicle speed",
+          "unit": "km/h",
+          "min": 0,
+          "max": 255
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "0F",
+          "shortName": "IntakeAirTemperature",
+          "name": "S1_PID_0F_IntakeAirTemperature",
+          "requestCode": "02010F5555555555",
+          "description": "Intake air temperature",
+          "unit": "degC",
+          "min": -40,
+          "max": 215
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "10",
+          "shortName": "MAFAirFlowRate",
+          "name": "S1_PID_10_MAFAirFlowRate",
+          "requestCode": "0201105555555555",
+          "description": "Mass air flow sensor air flow rate",
+          "unit": "grams/sec",
+          "min": 0,
+          "max": 655
+        },
+        {
+          "serviceID": "S1",
+          "parameterID": "1F",
+          "shortName": "TimeSinceEngStart",
+          "name": "S1_PID_1F_TimeSinceEngStart",
+          "requestCode": "02011F5555555555",
+          "description": "Run time since engine start",
+          "unit": "seconds",
+          "min": 0,
+          "max": 65535
+        }
+      ],
+      "logActive": true,
+      "logInterval": 5,
+      "uploadInterval": 10
+    }
+  }
+]
