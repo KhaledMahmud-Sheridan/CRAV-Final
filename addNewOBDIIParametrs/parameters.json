@@ -1,0 +1,2051 @@
+[{
+  "serviceID": "S1",
+  "parameterID": "00",
+  "shortName": "PIDsSupported_01_20",
+  "name": "S1_PID_00_PIDsSupported_01_20",
+  "requestCode": "0201005555555555",
+  "description": "PIDs supported [01 - 20]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "01",
+  "shortName": "MonitorStatus",
+  "name": "S1_PID_01_MonitorStatus",
+  "requestCode": "0201015555555555",
+  "description": "Monitor status since DTCs cleared",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "02",
+  "shortName": "FreezeDTC",
+  "name": "S1_PID_02_FreezeDTC",
+  "requestCode": "0201025555555555",
+  "description": "Freeze DTC",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "03",
+  "shortName": "FuelSystemStatus",
+  "name": "S1_PID_03_FuelSystemStatus",
+  "requestCode": "0201035555555555",
+  "description": "Fuel system status",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "04",
+  "shortName": "CalcEngineLoad",
+  "name": "S1_PID_04_CalcEngineLoad",
+  "requestCode": "0201045555555555",
+  "description": "Calculated engine load",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "05",
+  "shortName": "EngineCoolantTemp",
+  "name": "S1_PID_05_EngineCoolantTemp",
+  "requestCode": "0201055555555555",
+  "description": "Engine coolant temperature",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "06",
+  "shortName": "ShortFuelTrimBank1",
+  "name": "S1_PID_06_ShortFuelTrimBank1",
+  "requestCode": "0201065555555555",
+  "description": "Short term fuel trim (bank 1)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "07",
+  "shortName": "LongFuelTrimBank1",
+  "name": "S1_PID_07_LongFuelTrimBank1",
+  "requestCode": "0201075555555555",
+  "description": "Long term fuel trim (bank 1)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "08",
+  "shortName": "ShortFuelTrimBank2",
+  "name": "S1_PID_08_ShortFuelTrimBank2",
+  "requestCode": "0201085555555555",
+  "description": "Short term fuel trim (bank 2)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "09",
+  "shortName": "LongFuelTrimBank2",
+  "name": "S1_PID_09_LongFuelTrimBank2",
+  "requestCode": "0201095555555555",
+  "description": "Long term fuel trim (bank 2)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "0A",
+  "shortName": "FuelPressure",
+  "name": "S1_PID_0A_FuelPressure",
+  "requestCode": "02010A5555555555",
+  "description": "Fuel pressure (gauge pressure)",
+  "unit": "kPa",
+  "min": 0,
+  "max": 765
+},{
+  "serviceID": "S1",
+  "parameterID": "0B",
+  "shortName": "IntakeManiAbsPress",
+  "name": "S1_PID_0B_IntakeManiAbsPress",
+  "requestCode": "02010B5555555555",
+  "description": "Intake manifold absolute pressure",
+  "unit": "kPa",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "0C",
+  "shortName": "EngineRPM",
+  "name": "S1_PID_0C_EngineRPM",
+  "requestCode": "02010C5555555555",
+  "description": "Engine speed",
+  "unit": "rpm",
+  "min": 0,
+  "max": 16384
+},{
+  "serviceID": "S1",
+  "parameterID": "0D",
+  "shortName": "VehicleSpeed",
+  "name": "S1_PID_0D_VehicleSpeed",
+  "requestCode": "02010D5555555555",
+  "description": "Vehicle speed",
+  "unit": "km/h",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "0E",
+  "shortName": "TimingAdvance",
+  "name": "S1_PID_0E_TimingAdvance",
+  "requestCode": "02010E5555555555",
+  "description": "Timing advance",
+  "unit": "deg",
+  "min": -64,
+  "max": 64
+},{
+  "serviceID": "S1",
+  "parameterID": "0F",
+  "shortName": "IntakeAirTemperature",
+  "name": "S1_PID_0F_IntakeAirTemperature",
+  "requestCode": "02010F5555555555",
+  "description": "Intake air temperature",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "10",
+  "shortName": "MAFAirFlowRate",
+  "name": "S1_PID_10_MAFAirFlowRate",
+  "requestCode": "0201105555555555",
+  "description": "Mass air flow sensor air flow rate",
+  "unit": "grams/sec",
+  "min": 0,
+  "max": 655
+},{
+  "serviceID": "S1",
+  "parameterID": "11",
+  "shortName": "ThrottlePosition",
+  "name": "S1_PID_11_ThrottlePosition",
+  "requestCode": "0201115555555555",
+  "description": "Throttle position",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "12",
+  "shortName": "CmdSecAirStatus",
+  "name": "S1_PID_12_CmdSecAirStatus",
+  "requestCode": "0201125555555555",
+  "description": "Commanded secondary air status",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "13",
+  "shortName": "OxySensorsPresent_2Banks",
+  "name": "S1_PID_13_OxySensorsPresent_2Banks",
+  "requestCode": "0201135555555555",
+  "description": "Oxygen sensors present (2 banks)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "14",
+  "shortName": "OxySensor1_Volt",
+  "name": "S1_PID_14_OxySensor1_Volt",
+  "requestCode": "0201145555555555",
+  "description": "Oxygen sensor 1 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "14",
+  "shortName": "OxySensor1_STFT",
+  "name": "S1_PID_14_OxySensor1_STFT",
+  "requestCode": "0201145555555555",
+  "description": "Oxygen sensor 1 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "15",
+  "shortName": "OxySensor2_Volt",
+  "name": "S1_PID_15_OxySensor2_Volt",
+  "requestCode": "0201155555555555",
+  "description": "Oxygen sensor 2 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "15",
+  "shortName": "OxySensor2_STFT",
+  "name": "S1_PID_15_OxySensor2_STFT",
+  "requestCode": "0201155555555555",
+  "description": "Oxygen sensor 2 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "16",
+  "shortName": "OxySensor3_Volt",
+  "name": "S1_PID_16_OxySensor3_Volt",
+  "requestCode": "0201165555555555",
+  "description": "Oxygen sensor 3 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "16",
+  "shortName": "OxySensor3_STFT",
+  "name": "S1_PID_16_OxySensor3_STFT",
+  "requestCode": "0201165555555555",
+  "description": "Oxygen sensor 3 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "17",
+  "shortName": "OxySensor4_Volt",
+  "name": "S1_PID_17_OxySensor4_Volt",
+  "requestCode": "0201175555555555",
+  "description": "Oxygen sensor 4 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "17",
+  "shortName": "OxySensor4_STFT",
+  "name": "S1_PID_17_OxySensor4_STFT",
+  "requestCode": "0201175555555555",
+  "description": "Oxygen sensor 4 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "18",
+  "shortName": "OxySensor5_Volt",
+  "name": "S1_PID_18_OxySensor5_Volt",
+  "requestCode": "0201185555555555",
+  "description": "Oxygen sensor 5 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "18",
+  "shortName": "OxySensor5_STFT",
+  "name": "S1_PID_18_OxySensor5_STFT",
+  "requestCode": "0201185555555555",
+  "description": "Oxygen sensor 5 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "19",
+  "shortName": "OxySensor6_Volt",
+  "name": "S1_PID_19_OxySensor6_Volt",
+  "requestCode": "0201195555555555",
+  "description": "Oxygen sensor 6 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "19",
+  "shortName": "OxySensor6_STFT",
+  "name": "S1_PID_19_OxySensor6_STFT",
+  "requestCode": "0201195555555555",
+  "description": "Oxygen sensor 6 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "1A",
+  "shortName": "OxySensor7_Volt",
+  "name": "S1_PID_1A_OxySensor7_Volt",
+  "requestCode": "02011A5555555555",
+  "description": "Oxygen sensor 7 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "1B",
+  "shortName": "OxySensor7_STFT",
+  "name": "S1_PID_1B_OxySensor7_STFT",
+  "requestCode": "02011B5555555555",
+  "description": "Oxygen sensor 7 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "1B",
+  "shortName": "OxySensor8_Volt",
+  "name": "S1_PID_1B_OxySensor8_Volt",
+  "requestCode": "02011B5555555555",
+  "description": "Oxygen sensor 8 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 1
+},{
+  "serviceID": "S1",
+  "parameterID": "1C",
+  "shortName": "OxySensor8_STFT",
+  "name": "S1_PID_1C_OxySensor8_STFT",
+  "requestCode": "02011C5555555555",
+  "description": "Oxygen sensor 9 (short term fuel trim)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "1C",
+  "shortName": "OBDStandard",
+  "name": "S1_PID_1C_OBDStandard",
+  "requestCode": "02011C5555555555",
+  "description": "OBD standards the vehicle conforms to",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "1D",
+  "shortName": "OxySensorsPresent_4Banks",
+  "name": "S1_PID_1D_OxySensorsPresent_4Banks",
+  "requestCode": "02011D5555555555",
+  "description": "Oxygen sensors present (4 banks)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "1E",
+  "shortName": "AuxiliaryInputStatus",
+  "name": "S1_PID_1E_AuxiliaryInputStatus",
+  "requestCode": "02011E5555555555",
+  "description": "Auxiliary input status",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "1F",
+  "shortName": "TimeSinceEngStart",
+  "name": "S1_PID_1F_TimeSinceEngStart",
+  "requestCode": "02011F5555555555",
+  "description": "Run time since engine start",
+  "unit": "seconds",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "20",
+  "shortName": "PIDsSupported_21_40",
+  "name": "S1_PID_20_PIDsSupported_21_40",
+  "requestCode": "0201205555555555",
+  "description": "PIDs supported [21 - 40]",
+  "unit": "Encoded",
+  "min":0,
+  "max":0
+},{
+  "serviceID": "S1",
+  "parameterID": "21",
+  "shortName": "DistanceMILOn",
+  "name": "S1_PID_21_DistanceMILOn",
+  "requestCode": "0201215555555555",
+  "description": "Distance traveled with MIL on",
+  "unit": "km",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "22",
+  "shortName": "FuelRailPres",
+  "name": "S1_PID_22_FuelRailPres",
+  "requestCode": "0201225555555555",
+  "description": "Fuel rail pres. (rel. to manifold vacuum)",
+  "unit": "kPa",
+  "min": 0,
+  "max": 5177
+},{
+  "serviceID": "S1",
+  "parameterID": "23",
+  "shortName": "FuelRailGaug",
+  "name": "S1_PID_23_FuelRailGaug",
+  "requestCode": "0201235555555555",
+  "description": "Fuel rail gauge pres. (diesel, gas inject)",
+  "unit": "kPa",
+  "min": 0,
+  "max": 655350
+},{
+  "serviceID": "S1",
+  "parameterID": "24",
+  "shortName": "OxySensor1_FAER",
+  "name": "S1_PID_24_OxySensor1_FAER",
+  "requestCode": "0201245555555555",
+  "description": "Oxygen sensor 1 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "24",
+  "shortName": "OxySensor1_Volt",
+  "name": "S1_PID_24_OxySensor1_Volt",
+  "requestCode": "0201245555555555",
+  "description": "Oxygen sensor 1 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "25",
+  "shortName": "OxySensor2_FAER",
+  "name": "S1_PID_25_OxySensor2_FAER",
+  "requestCode": "0201255555555555",
+  "description": "Oxygen sensor 2 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "25",
+  "shortName": "OxySensor2_Volt",
+  "name": "S1_PID_25_OxySensor2_Volt",
+  "requestCode": "0201255555555555",
+  "description": "Oxygen sensor 2 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "26",
+  "shortName": "OxySensor3_FAER",
+  "name": "S1_PID_26_OxySensor3_FAER",
+  "requestCode": "0201265555555555",
+  "description": "Oxygen sensor 3 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "26",
+  "shortName": "OxySensor3_Volt",
+  "name": "S1_PID_26_OxySensor3_Volt",
+  "requestCode": "0201265555555555",
+  "description": "Oxygen sensor 3 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "27",
+  "shortName": "OxySensor4_FAER",
+  "name": "S1_PID_27_OxySensor4_FAER",
+  "requestCode": "0201275555555555",
+  "description": "Oxygen sensor 4 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "27",
+  "shortName": "OxySensor4_Volt",
+  "name": "S1_PID_27_OxySensor4_Volt",
+  "requestCode": "0201275555555555",
+  "description": "Oxygen sensor 4 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "28",
+  "shortName": "OxySensor5_FAER",
+  "name": "S1_PID_28_OxySensor5_FAER",
+  "requestCode": "0201285555555555",
+  "description": "Oxygen sensor 5 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "28",
+  "shortName": "OxySensor5_Volt",
+  "name": "S1_PID_28_OxySensor5_Volt",
+  "requestCode": "0201285555555555",
+  "description": "Oxygen sensor 5 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "29",
+  "shortName": "OxySensor6_FAER",
+  "name": "S1_PID_29_OxySensor6_FAER",
+  "requestCode": "0201295555555555",
+  "description": "Oxygen sensor 6 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "29",
+  "shortName": "OxySensor6_Volt",
+  "name": "S1_PID_29_OxySensor6_Volt",
+  "requestCode": "0201295555555555",
+  "description": "Oxygen sensor 6 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "2A",
+  "shortName": "OxySensor7_FAER",
+  "name": "S1_PID_2A_OxySensor7_FAER",
+  "requestCode": "02012A5555555555",
+  "description": "Oxygen sensor 7 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "2B",
+  "shortName": "OxySensor7_Volt",
+  "name": "S1_PID_2B_OxySensor7_Volt",
+  "requestCode": "02012B5555555555",
+  "description": "Oxygen sensor 7 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "2B",
+  "shortName": "OxySensor8_FAER",
+  "name": "S1_PID_2B_OxySensor8_FAER",
+  "requestCode": "02012B5555555555",
+  "description": "Oxygen sensor 8 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "2C",
+  "shortName": "OxySensor8_Volt",
+  "name": "S1_PID_2C_OxySensor8_Volt",
+  "requestCode": "02012C5555555555",
+  "description": "Oxygen sensor 8 (voltage)",
+  "unit": "volts",
+  "min": 0,
+  "max": 8
+},{
+  "serviceID": "S1",
+  "parameterID": "2C",
+  "shortName": "CmdEGR",
+  "name": "S1_PID_2C_CmdEGR",
+  "requestCode": "02012C5555555555",
+  "description": "Commanded EGR",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "2D",
+  "shortName": "EGRError",
+  "name": "S1_PID_2D_EGRError",
+  "requestCode": "02012D5555555555",
+  "description": "EGR Error",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "2E",
+  "shortName": "CmdEvapPurge",
+  "name": "S1_PID_2E_CmdEvapPurge",
+  "requestCode": "02012E5555555555",
+  "description": "Commanded evaporative purge",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "2F",
+  "shortName": "FuelTankLevel",
+  "name": "S1_PID_2F_FuelTankLevel",
+  "requestCode": "02012F5555555555",
+  "description": "Fuel tank level input",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "30",
+  "shortName": "WarmUpsSinceCodeClear",
+  "name": "S1_PID_30_WarmUpsSinceCodeClear",
+  "requestCode": "0201305555555555",
+  "description": "Warmups since DTCs cleared",
+  "unit": "count",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "31",
+  "shortName": "DistanceSinceCodeClear",
+  "name": "S1_PID_31_DistanceSinceCodeClear",
+  "requestCode": "0201315555555555",
+  "description": "Distance traveled since DTCs cleared",
+  "unit": "km",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "32",
+  "shortName": "EvapSysVaporPres",
+  "name": "S1_PID_32_EvapSysVaporPres",
+  "requestCode": "0201325555555555",
+  "description": "Evap. system vapor pressure",
+  "unit": "Pa",
+  "min": -8192,
+  "max": 8192
+},{
+  "serviceID": "S1",
+  "parameterID": "33",
+  "shortName": "AbsBaroPres",
+  "name": "S1_PID_33_AbsBaroPres",
+  "requestCode": "0201335555555555",
+  "description": "Absolute barometric pressure",
+  "unit": "kPa",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "34",
+  "shortName": "OxySensor1_FAER",
+  "name": "S1_PID_34_OxySensor1_FAER",
+  "requestCode": "0201345555555555",
+  "description": "Oxygen sensor 1 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "34",
+  "shortName": "OxySensor1_Crnt",
+  "name": "S1_PID_34_OxySensor1_Crnt",
+  "requestCode": "0201345555555555",
+  "description": "Oxygen sensor 1 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "35",
+  "shortName": "OxySensor2_FAER",
+  "name": "S1_PID_35_OxySensor2_FAER",
+  "requestCode": "0201355555555555",
+  "description": "Oxygen sensor 2 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "35",
+  "shortName": "OxySensor2_Crnt",
+  "name": "S1_PID_35_OxySensor2_Crnt",
+  "requestCode": "0201355555555555",
+  "description": "Oxygen sensor 2 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "36",
+  "shortName": "OxySensor3_FAER",
+  "name": "S1_PID_36_OxySensor3_FAER",
+  "requestCode": "0201365555555555",
+  "description": "Oxygen sensor 3 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "36",
+  "shortName": "OxySensor3_Crnt",
+  "name": "S1_PID_36_OxySensor3_Crnt",
+  "requestCode": "0201365555555555",
+  "description": "Oxygen sensor 3 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "37",
+  "shortName": "OxySensor4_FAER",
+  "name": "S1_PID_37_OxySensor4_FAER",
+  "requestCode": "0201375555555555",
+  "description": "Oxygen sensor 4 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "37",
+  "shortName": "OxySensor4_Crnt",
+  "name": "S1_PID_37_OxySensor4_Crnt",
+  "requestCode": "0201375555555555",
+  "description": "Oxygen sensor 4 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "38",
+  "shortName": "OxySensor5_FAER",
+  "name": "S1_PID_38_OxySensor5_FAER",
+  "requestCode": "0201385555555555",
+  "description": "Oxygen sensor 5 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "38",
+  "shortName": "OxySensor5_Crnt",
+  "name": "S1_PID_38_OxySensor5_Crnt",
+  "requestCode": "0201385555555555",
+  "description": "Oxygen sensor 5 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "39",
+  "shortName": "OxySensor6_FAER",
+  "name": "S1_PID_39_OxySensor6_FAER",
+  "requestCode": "0201395555555555",
+  "description": "Oxygen sensor 6 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "39",
+  "shortName": "OxySensor6_Crnt",
+  "name": "S1_PID_39_OxySensor6_Crnt",
+  "requestCode": "0201395555555555",
+  "description": "Oxygen sensor 6 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "3A",
+  "shortName": "OxySensor7_FAER",
+  "name": "S1_PID_3A_OxySensor7_FAER",
+  "requestCode": "02013A5555555555",
+  "description": "Oxygen sensor 7 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "3B",
+  "shortName": "OxySensor7_Crnt",
+  "name": "S1_PID_3B_OxySensor7_Crnt",
+  "requestCode": "02013B5555555555",
+  "description": "Oxygen sensor 7 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "3B",
+  "shortName": "OxySensor8_FAER",
+  "name": "S1_PID_3B_OxySensor8_FAER",
+  "requestCode": "02013B5555555555",
+  "description": "Oxygen sensor 8 (air-fuel equiv. ratio)",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "3C",
+  "shortName": "OxySensor8_Crnt",
+  "name": "S1_PID_3C_OxySensor8_Crnt",
+  "requestCode": "02013C5555555555",
+  "description": "Oxygen sensor 8 (current)",
+  "unit": "mA",
+  "min": -128,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "3C",
+  "shortName": "CatTempBank1Sens1",
+  "name": "S1_PID_3C_CatTempBank1Sens1",
+  "requestCode": "02013C5555555555",
+  "description": "Catalyst temperature (bank 1, sensor 1)",
+  "unit": "degC",
+  "min": -40,
+  "max": 6514
+},{
+  "serviceID": "S1",
+  "parameterID": "3D",
+  "shortName": "CatTempBank2Sens1",
+  "name": "S1_PID_3D_CatTempBank2Sens1",
+  "requestCode": "02013D5555555555",
+  "description": "Catalyst temperature (bank 2, sensor 1)",
+  "unit": "degC",
+  "min": -40,
+  "max": 6514
+},{
+  "serviceID": "S1",
+  "parameterID": "3E",
+  "shortName": "CatTempBank1Sens2",
+  "name": "S1_PID_3E_CatTempBank1Sens2",
+  "requestCode": "02013E5555555555",
+  "description": "Catalyst temperature (bank 1, sensor 2)",
+  "unit": "degC",
+  "min": -40,
+  "max": 6514
+},{
+  "serviceID": "S1",
+  "parameterID": "3F",
+  "shortName": "CatTempBank2Sens2",
+  "name": "S1_PID_3F_CatTempBank2Sens2",
+  "requestCode": "02013F5555555555",
+  "description": "Catalyst temperature (bank 2, sensor 2)",
+  "unit": "degC",
+  "min": -40,
+  "max": 6514
+},{
+  "serviceID": "S1",
+  "parameterID": "40",
+  "shortName": "PIDsSupported_41_60",
+  "name": "S1_PID_40_PIDsSupported_41_60",
+  "requestCode": "0201405555555555",
+  "description": "PIDs supported [41 - 60]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "41",
+  "shortName": "MonStatusDriveCycle",
+  "name": "S1_PID_41_MonStatusDriveCycle",
+  "requestCode": "0201415555555555",
+  "description": "Monitor status this drive cycle",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "42",
+  "shortName": "ControlModuleVolt",
+  "name": "S1_PID_42_ControlModuleVolt",
+  "requestCode": "0201425555555555",
+  "description": "Control module voltage",
+  "unit": "V",
+  "min": 0,
+  "max": 66
+},{
+  "serviceID": "S1",
+  "parameterID": "43",
+  "shortName": "AbsLoadValue",
+  "name": "S1_PID_43_AbsLoadValue",
+  "requestCode": "0201435555555555",
+  "description": "Absolute load value",
+  "unit": "%",
+  "min": 0,
+  "max": 25700
+},{
+  "serviceID": "S1",
+  "parameterID": "44",
+  "shortName": "FuelAirCmdEquiv",
+  "name": "S1_PID_44_FuelAirCmdEquiv",
+  "requestCode": "0201445555555555",
+  "description": "Commanded air-fuel equiv. ratio ",
+  "unit": "ratio",
+  "min": 0,
+  "max": 2
+},{
+  "serviceID": "S1",
+  "parameterID": "45",
+  "shortName": "RelThrottlePos",
+  "name": "S1_PID_45_RelThrottlePos",
+  "requestCode": "0201455555555555",
+  "description": "Relative throttle position",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "46",
+  "shortName": "AmbientAirTemp",
+  "name": "S1_PID_46_AmbientAirTemp",
+  "requestCode": "0201465555555555",
+  "description": "Ambient air temperature",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "47",
+  "shortName": "AbsThrottlePosB",
+  "name": "S1_PID_47_AbsThrottlePosB",
+  "requestCode": "0201475555555555",
+  "description": "Absolute throttle position B",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "48",
+  "shortName": "AbsThrottlePosC",
+  "name": "S1_PID_48_AbsThrottlePosC",
+  "requestCode": "0201485555555555",
+  "description": "Absolute throttle position C",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "49",
+  "shortName": "AbsThrottlePosD",
+  "name": "S1_PID_49_AbsThrottlePosD",
+  "requestCode": "0201495555555555",
+  "description": "Accelerator pedal position D",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "4A",
+  "shortName": "AbsThrottlePosE",
+  "name": "S1_PID_4A_AbsThrottlePosE",
+  "requestCode": "02014A5555555555",
+  "description": "Accelerator pedal position E",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "4B",
+  "shortName": "AbsThrottlePosF",
+  "name": "S1_PID_4B_AbsThrottlePosF",
+  "requestCode": "02014B5555555555",
+  "description": "Accelerator pedal position F",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "4C",
+  "shortName": "CmdThrottleAct",
+  "name": "S1_PID_4C_CmdThrottleAct",
+  "requestCode": "02014C5555555555",
+  "description": "Commanded throttle actuator",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "4D",
+  "shortName": "TimeRunMILOn",
+  "name": "S1_PID_4D_TimeRunMILOn",
+  "requestCode": "02014D5555555555",
+  "description": "Time run with MIL on",
+  "unit": "minutes",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "4E",
+  "shortName": "TimeSinceCodeClear",
+  "name": "S1_PID_4E_TimeSinceCodeClear",
+  "requestCode": "02014E5555555555",
+  "description": "Time since DTCs cleared",
+  "unit": "minutes",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "4F",
+  "shortName": "Max_FAER",
+  "name": "S1_PID_4F_Max_FAER",
+  "requestCode": "02014F5555555555",
+  "description": "Max fuel-air equiv. ratio",
+  "unit": "ratio",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "50",
+  "shortName": "Max_OxySensVol",
+  "name": "S1_PID_50_Max_OxySensVol",
+  "requestCode": "0201505555555555",
+  "description": "Max oxygen sensor voltage",
+  "unit": "V",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "51",
+  "shortName": "Max_OxySensCrnt",
+  "name": "S1_PID_51_Max_OxySensCrnt",
+  "requestCode": "0201515555555555",
+  "description": "Max oxygen sensor current",
+  "unit": "mA",
+  "min": 0,
+  "max": 255
+},{
+  "serviceID": "S1",
+  "parameterID": "52",
+  "shortName": "Max_IntManiAbsPres",
+  "name": "S1_PID_52_Max_IntManiAbsPres",
+  "requestCode": "0201525555555555",
+  "description": "Max intake manifold absolute pressure",
+  "unit": "kPa",
+  "min": 0,
+  "max": 2550
+},{
+  "serviceID": "S1",
+  "parameterID": "50",
+  "shortName": "Max_AirFlowMAF",
+  "name": "S1_PID_50_Max_AirFlowMAF",
+  "requestCode": "0201505555555555",
+  "description": "Max air flow rate from MAF sensor",
+  "unit": "g/s",
+  "min": 0,
+  "max": 2550
+},{
+  "serviceID": "S1",
+  "parameterID": "51",
+  "shortName": "FuelType",
+  "name": "S1_PID_51_FuelType",
+  "requestCode": "0201515555555555",
+  "description": "Fuel type",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "52",
+  "shortName": "EthanolFuelPct",
+  "name": "S1_PID_52_EthanolFuelPct",
+  "requestCode": "0201525555555555",
+  "description": "Ethanol fuel percentage",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "53",
+  "shortName": "AbsEvapSysVapPres",
+  "name": "S1_PID_53_AbsEvapSysVapPres",
+  "requestCode": "0201535555555555",
+  "description": "Absolute evap system vapor pressure",
+  "unit": "kPa",
+  "min": 0,
+  "max": 328
+},{
+  "serviceID": "S1",
+  "parameterID": "54",
+  "shortName": "EvapSysVapPres",
+  "name": "S1_PID_54_EvapSysVapPres",
+  "requestCode": "0201545555555555",
+  "description": "Evap system vapor pressure",
+  "unit": "Pa",
+  "min": -32767,
+  "max": 32768
+},{
+  "serviceID": "S1",
+  "parameterID": "55",
+  "shortName": "ShortSecOxyTrimBank1",
+  "name": "S1_PID_55_ShortSecOxyTrimBank1",
+  "requestCode": "0201555555555555",
+  "description": "Short term sec. oxygen trim (bank 1)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "55",
+  "shortName": "ShortSecOxyTrimBank3",
+  "name": "S1_PID_55_ShortSecOxyTrimBank3",
+  "requestCode": "0201555555555555",
+  "description": "Short term sec. oxygen trim (bank 3)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "56",
+  "shortName": "LongSecOxyTrimBank1",
+  "name": "S1_PID_56_LongSecOxyTrimBank1",
+  "requestCode": "0201565555555555",
+  "description": "Long term sec. oxygen trim (bank 1)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "56",
+  "shortName": "LongSecOxyTrimBank3",
+  "name": "S1_PID_56_LongSecOxyTrimBank3",
+  "requestCode": "0201565555555555",
+  "description": "Long term sec. oxygen trim (bank 3)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "57",
+  "shortName": "ShortSecOxyTrimBank2",
+  "name": "S1_PID_57_ShortSecOxyTrimBank2",
+  "requestCode": "0201575555555555",
+  "description": "Short term sec. oxygen trim (bank 2)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "57",
+  "shortName": "ShortSecOxyTrimBank4",
+  "name": "S1_PID_57_ShortSecOxyTrimBank4",
+  "requestCode": "0201575555555555",
+  "description": "Short term sec. oxygen trim (bank 4)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "58",
+  "shortName": "LongSecOxyTrimBank2",
+  "name": "S1_PID_58_LongSecOxyTrimBank2",
+  "requestCode": "0201585555555555",
+  "description": "Long term sec. oxygen trim (bank 2)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "58",
+  "shortName": "LongSecOxyTrimBank4",
+  "name": "S1_PID_58_LongSecOxyTrimBank4",
+  "requestCode": "0201585555555555",
+  "description": "Long term sec. oxygen trim (bank 4)",
+  "unit": "%",
+  "min": -100,
+  "max": 99
+},{
+  "serviceID": "S1",
+  "parameterID": "59",
+  "shortName": "FuelRailAbsPres",
+  "name": "S1_PID_59_FuelRailAbsPres",
+  "requestCode": "0201595555555555",
+  "description": "Fuel rail absolute pressure",
+  "unit": "kPa",
+  "min": 0,
+  "max": 655350
+},{
+  "serviceID": "S1",
+  "parameterID": "5A",
+  "shortName": "RelAccelPedalPos",
+  "name": "S1_PID_5A_RelAccelPedalPos",
+  "requestCode": "02015A5555555555",
+  "description": "Relative accelerator pedal position",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "5B",
+  "shortName": "HybrBatPackRemLife",
+  "name": "S1_PID_5B_HybrBatPackRemLife",
+  "requestCode": "02015B5555555555",
+  "description": "Hybrid battery pack remaining life",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "5C",
+  "shortName": "EngineOilTemp",
+  "name": "S1_PID_5C_EngineOilTemp",
+  "requestCode": "02015C5555555555",
+  "description": "Engine oil temperature",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "5D",
+  "shortName": "FuelInjectionTiming",
+  "name": "S1_PID_5D_FuelInjectionTiming",
+  "requestCode": "02015D5555555555",
+  "description": "Fuel injection timing",
+  "unit": "deg",
+  "min": -210,
+  "max": 302
+},{
+  "serviceID": "S1",
+  "parameterID": "5E",
+  "shortName": "EngineFuelRate",
+  "name": "S1_PID_5E_EngineFuelRate",
+  "requestCode": "02015E5555555555",
+  "description": "Engine fuel rate",
+  "unit": "L/h",
+  "min": 0,
+  "max": 3277
+},{
+  "serviceID": "S1",
+  "parameterID": "5F",
+  "shortName": "EmissionReq",
+  "name": "S1_PID_5F_EmissionReq",
+  "requestCode": "02015F5555555555",
+  "description": "Emission requirements",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "60",
+  "shortName": "PIDsSupported_61_80",
+  "name": "S1_PID_60_PIDsSupported_61_80",
+  "requestCode": "0201605555555555",
+  "description": "PIDs supported [61 - 80]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "61",
+  "shortName": "DemandEngTorqPct",
+  "name": "S1_PID_61_DemandEngTorqPct",
+  "requestCode": "0201615555555555",
+  "description": "Demanded engine percent torque",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "62",
+  "shortName": "ActualEngTorqPct",
+  "name": "S1_PID_62_ActualEngTorqPct",
+  "requestCode": "0201625555555555",
+  "description": "Actual engine percent torque",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "63",
+  "shortName": "EngRefTorq",
+  "name": "S1_PID_63_EngRefTorq",
+  "requestCode": "0201635555555555",
+  "description": "Engine reference torque",
+  "unit": "Nm",
+  "min": 0,
+  "max": 65535
+},{
+  "serviceID": "S1",
+  "parameterID": "64",
+  "shortName": "EngPctTorq_Idle",
+  "name": "S1_PID_64_EngPctTorq_Idle",
+  "requestCode": "0201645555555555",
+  "description": "Engine pct. torque (idle)",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "64",
+  "shortName": "EngPctTorq_EP1",
+  "name": "S1_PID_64_EngPctTorq_EP1",
+  "requestCode": "0201645555555555",
+  "description": "Engine pct. torque (engine point 1)",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "64",
+  "shortName": "EngPctTorq_EP2",
+  "name": "S1_PID_64_EngPctTorq_EP2",
+  "requestCode": "0201645555555555",
+  "description": "Engine pct. torque (engine point 2)",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "64",
+  "shortName": "EngPctTorq_EP3",
+  "name": "S1_PID_64_EngPctTorq_EP3",
+  "requestCode": "0201645555555555",
+  "description": "Engine pct. torque (engine point 3)",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "64",
+  "shortName": "EngPctTorq_EP4",
+  "name": "S1_PID_64_EngPctTorq_EP4",
+  "requestCode": "0201645555555555",
+  "description": "Engine pct. torque (engine point 4)",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "65",
+  "shortName": "AuxInputOutput",
+  "name": "S1_PID_65_AuxInputOutput",
+  "requestCode": "0201655555555555",
+  "description": "Auxiliary input/output supported",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "66",
+  "shortName": "MAFSensorA",
+  "name": "S1_PID_66_MAFSensorA",
+  "requestCode": "0201665555555555",
+  "description": "Mass air flow sensor (A)",
+  "unit": "grams/sec",
+  "min": 0,
+  "max": 2048
+},{
+  "serviceID": "S1",
+  "parameterID": "66",
+  "shortName": "MAFSensorB",
+  "name": "S1_PID_66_MAFSensorB",
+  "requestCode": "0201665555555555",
+  "description": "Mass air flow sensor (B)",
+  "unit": "grams/sec",
+  "min": 0,
+  "max": 2048
+},{
+  "serviceID": "S1",
+  "parameterID": "67",
+  "shortName": "EngineCoolantTemp1",
+  "name": "S1_PID_67_EngineCoolantTemp1",
+  "requestCode": "0201675555555555",
+  "description": "Engine coolant temperature (sensor 1)",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "67",
+  "shortName": "EngineCoolantTemp2",
+  "name": "S1_PID_67_EngineCoolantTemp2",
+  "requestCode": "0201675555555555",
+  "description": "Engine coolant temperature (sensor 2)",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "68",
+  "shortName": "IntakeAirTempSens1",
+  "name": "S1_PID_68_IntakeAirTempSens1",
+  "requestCode": "0201685555555555",
+  "description": "Intake air temperature (sensor 1)",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "68",
+  "shortName": "IntakeAirTempSens2",
+  "name": "S1_PID_68_IntakeAirTempSens2",
+  "requestCode": "0201685555555555",
+  "description": "Intake air temperature (sensor 2)",
+  "unit": "degC",
+  "min": -40,
+  "max": 215
+},{
+  "serviceID": "S1",
+  "parameterID": "69",
+  "shortName": "CmdEGR_EGRError",
+  "name": "S1_PID_69_CmdEGR_EGRError",
+  "requestCode": "0201695555555555",
+  "description": "Commanded EGR and EGR error",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6A",
+  "shortName": "CmdDieselIntAir",
+  "name": "S1_PID_6A_CmdDieselIntAir",
+  "requestCode": "02016A5555555555",
+  "description": "Com. diesel intake air flow ctr/position",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6B",
+  "shortName": "ExhaustGasTemp",
+  "name": "S1_PID_6B_ExhaustGasTemp",
+  "requestCode": "02016B5555555555",
+  "description": "Exhaust gas recirculation temperature",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6C",
+  "shortName": "CmdThrottleActRel",
+  "name": "S1_PID_6C_CmdThrottleActRel",
+  "requestCode": "02016C5555555555",
+  "description": "Com. throttle actuator ctr./position",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6D",
+  "shortName": "FuelPresContrSys",
+  "name": "S1_PID_6D_FuelPresContrSys",
+  "requestCode": "02016D5555555555",
+  "description": "Fuel pressure control system",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6E",
+  "shortName": "InjPresContrSys",
+  "name": "S1_PID_6E_InjPresContrSys",
+  "requestCode": "02016E5555555555",
+  "description": "Injection pressure control system",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "6F",
+  "shortName": "TurboComprPres",
+  "name": "S1_PID_6F_TurboComprPres",
+  "requestCode": "02016F5555555555",
+  "description": "Turbocharger compressor inlet pres.",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "70",
+  "shortName": "BoostPresCntrl",
+  "name": "S1_PID_70_BoostPresCntrl",
+  "requestCode": "0201705555555555",
+  "description": "Boost pressure control",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "71",
+  "shortName": "VariableGeoTurboVGTCtr",
+  "name": "S1_PID_71_VariableGeoTurboVGTCtr",
+  "requestCode": "0201715555555555",
+  "description": "Variable geometry turbo control",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "72",
+  "shortName": "WastegateControl",
+  "name": "S1_PID_72_WastegateControl",
+  "requestCode": "0201725555555555",
+  "description": "Wastegate control",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "73",
+  "shortName": "ExhaustPressure",
+  "name": "S1_PID_73_ExhaustPressure",
+  "requestCode": "0201735555555555",
+  "description": "Exhaust pressure",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "74",
+  "shortName": "TurbochargerRpm",
+  "name": "S1_PID_74_TurbochargerRpm",
+  "requestCode": "0201745555555555",
+  "description": "Turbocharger RPM",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "75",
+  "shortName": "TurbochargerTemperature",
+  "name": "S1_PID_75_TurbochargerTemperature",
+  "requestCode": "0201755555555555",
+  "description": "Turbocharger temperature",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "76",
+  "shortName": "TurbochargerTemperature",
+  "name": "S1_PID_76_TurbochargerTemperature",
+  "requestCode": "0201765555555555",
+  "description": "Turbocharger temperature",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "77",
+  "shortName": "ChargeAirCoolerTemperature",
+  "name": "S1_PID_77_ChargeAirCoolerTemperature",
+  "requestCode": "0201775555555555",
+  "description": "Charge air cooler temperature",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "78",
+  "shortName": "EGT_Bank1",
+  "name": "S1_PID_78_EGT_Bank1",
+  "requestCode": "0201785555555555",
+  "description": "EGT (bank 1)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "79",
+  "shortName": "EGT_Bank2",
+  "name": "S1_PID_79_EGT_Bank2",
+  "requestCode": "0201795555555555",
+  "description": "EGT (bank 2)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "7A",
+  "shortName": "DPF_DifferentialPressure",
+  "name": "S1_PID_7A_DPF_DifferentialPressure",
+  "requestCode": "02017A5555555555",
+  "description": "Diesel particulate filter - diff. pressure",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "7B",
+  "shortName": "DPF",
+  "name": "S1_PID_7B_DPF",
+  "requestCode": "02017B5555555555",
+  "description": "Diesel particulate filter",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "7C",
+  "shortName": "DPF_Temperature",
+  "name": "S1_PID_7C_DPF_Temperature",
+  "requestCode": "02017C5555555555",
+  "description": "Diesel particulate filter - temperature",
+  "unit": "degC",
+  "min": -40,
+  "max": 6514
+},{
+  "serviceID": "S1",
+  "parameterID": "7D",
+  "shortName": "NOx_NTE_ControlAreaStatus",
+  "name": "S1_PID_7D_NOx_NTE_ControlAreaStatus",
+  "requestCode": "02017D5555555555",
+  "description": "NOx NTE control area status",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "7E",
+  "shortName": "PM_NTE_ControlAreaStatus",
+  "name": "S1_PID_7E_PM_NTE_ControlAreaStatus",
+  "requestCode": "02017E5555555555",
+  "description": "PM NTE control area status",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "7F",
+  "shortName": "EngineRunTime",
+  "name": "S1_PID_7F_EngineRunTime",
+  "requestCode": "02017F5555555555",
+  "description": "Engine run time",
+  "unit": "seconds",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "80",
+  "shortName": "PIDsSupported_81_A0",
+  "name": "S1_PID_80_PIDsSupported_81_A0",
+  "requestCode": "0201805555555555",
+  "description": "PIDs supported [81 - A0]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "81",
+  "shortName": "EngineRunTime_AECD",
+  "name": "S1_PID_81_EngineRunTime_AECD",
+  "requestCode": "0201815555555555",
+  "description": "Engine run time for AECD",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "82",
+  "shortName": "EngineRunTime_AECD",
+  "name": "S1_PID_82_EngineRunTime_AECD",
+  "requestCode": "0201825555555555",
+  "description": "Engine run time for AECD",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "83",
+  "shortName": "NOxSensor",
+  "name": "S1_PID_83_NOxSensor",
+  "requestCode": "0201835555555555",
+  "description": "NOx sensor",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "84",
+  "shortName": "ManifoldSurfaceTemperature",
+  "name": "S1_PID_84_ManifoldSurfaceTemperature",
+  "requestCode": "0201845555555555",
+  "description": "Manifold surface temperature",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "85",
+  "shortName": "NOxReagentSystem",
+  "name": "S1_PID_85_NOxReagentSystem",
+  "requestCode": "0201855555555555",
+  "description": "NOx reagent system",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "86",
+  "shortName": "PM_Sensor",
+  "name": "S1_PID_86_PM_Sensor",
+  "requestCode": "0201865555555555",
+  "description": "Particulate matter sensor",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "87",
+  "shortName": "IntakeManifoldAbsolutePressure",
+  "name": "S1_PID_87_IntakeManifoldAbsolutePressure",
+  "requestCode": "0201875555555555",
+  "description": "Intake manifold absolute pressure",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "88",
+  "shortName": "SCR_InduceSystem",
+  "name": "S1_PID_88_SCR_InduceSystem",
+  "requestCode": "0201885555555555",
+  "description": "SCR induce system",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "89",
+  "shortName": "RunTimeForAECD_11_15",
+  "name": "S1_PID_89_RunTimeForAECD_11_15",
+  "requestCode": "0201895555555555",
+  "description": "Run time for AECD #11-#15",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "8A",
+  "shortName": "RunTimeForAECD_16_20",
+  "name": "S1_PID_8A_RunTimeForAECD_16_20",
+  "requestCode": "02018A5555555555",
+  "description": "Run time for AECD #16-#20",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "8B",
+  "shortName": "DieselAftertreatment",
+  "name": "S1_PID_8B_DieselAftertreatment",
+  "requestCode": "02018B5555555555",
+  "description": "Diesel aftertreatment",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "8C",
+  "shortName": "O2Sensor_WideRange",
+  "name": "S1_PID_8C_O2Sensor_WideRange",
+  "requestCode": "02018C5555555555",
+  "description": "O2 sensor (wide range)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "8D",
+  "shortName": "ThrottlePositionG",
+  "name": "S1_PID_8D_ThrottlePositionG",
+  "requestCode": "02018D5555555555",
+  "description": "Throttle position G",
+  "unit": "%",
+  "min": 0,
+  "max": 100
+},{
+  "serviceID": "S1",
+  "parameterID": "8E",
+  "shortName": "EngineFrictionPercentTorque",
+  "name": "S1_PID_8E_EngineFrictionPercentTorque",
+  "requestCode": "02018E5555555555",
+  "description": "Engine friction percent torque",
+  "unit": "%",
+  "min": -125,
+  "max": 130
+},{
+  "serviceID": "S1",
+  "parameterID": "8F",
+  "shortName": "PMSensorBank1_2",
+  "name": "S1_PID_8F_PMSensorBank1_2",
+  "requestCode": "02018F5555555555",
+  "description": "Particulate matter sensor (bank 1 & 2)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "90",
+  "shortName": "WWH_OBD_SysInfo",
+  "name": "S1_PID_90_WWH_OBD_SysInfo",
+  "requestCode": "0201905555555555",
+  "description": "WWH-OBD vehicle OBD system Info",
+  "unit": "hours",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "91",
+  "shortName": "WWH_OBD_SysInfo",
+  "name": "S1_PID_91_WWH_OBD_SysInfo",
+  "requestCode": "0201915555555555",
+  "description": "WWH-OBD vehicle OBD system Info",
+  "unit": "hours",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "92",
+  "shortName": "FuelSystemControl",
+  "name": "S1_PID_92_FuelSystemControl",
+  "requestCode": "0201925555555555",
+  "description": "Fuel system control",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "93",
+  "shortName": "WWH_OBD_CtrSupport",
+  "name": "S1_PID_93_WWH_OBD_CtrSupport",
+  "requestCode": "0201935555555555",
+  "description": "WWH-OBD counters support",
+  "unit": "hours",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "94",
+  "shortName": "NOxWarningInducementSys",
+  "name": "S1_PID_94_NOxWarningInducementSys",
+  "requestCode": "0201945555555555",
+  "description": "NOx warning and inducement system",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "98",
+  "shortName": "EGT_Sensor",
+  "name": "S1_PID_98_EGT_Sensor",
+  "requestCode": "0201985555555555",
+  "description": "EGT sensor",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "99",
+  "shortName": "EGT_Sensor",
+  "name": "S1_PID_99_EGT_Sensor",
+  "requestCode": "0201995555555555",
+  "description": "EGT sensor",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9A",
+  "shortName": "Hybrid_EV_System",
+  "name": "S1_PID_9A_Hybrid_EV_System",
+  "requestCode": "02019A5555555555",
+  "description": "Hybrid/EV sys. data, battery, voltage",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9B",
+  "shortName": "DieselExhaustFluidSensorData",
+  "name": "S1_PID_9B_DieselExhaustFluidSensorData",
+  "requestCode": "02019B5555555555",
+  "description": "Diesel exhaust fluid sensor data",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9C",
+  "shortName": "O2SensorData",
+  "name": "S1_PID_9C_O2SensorData",
+  "requestCode": "02019C5555555555",
+  "description": "O2 sensor data",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9D",
+  "shortName": "EngineFuelRate",
+  "name": "S1_PID_9D_EngineFuelRate",
+  "requestCode": "02019D5555555555",
+  "description": "Engine fuel rate",
+  "unit": "g/s",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9E",
+  "shortName": "EngineExhaustFlowRate",
+  "name": "S1_PID_9E_EngineExhaustFlowRate",
+  "requestCode": "02019E5555555555",
+  "description": "Engine exhaust flow rate",
+  "unit": "kg/h",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "9F",
+  "shortName": "FuelSystemPercentageUse",
+  "name": "S1_PID_9F_FuelSystemPercentageUse",
+  "requestCode": "02019F5555555555",
+  "description": "Fuel system percentage use",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "A0",
+  "shortName": "PIDsSupported_A1_C0",
+  "name": "S1_PID_A0_PIDsSupported_A1_C0",
+  "requestCode": "0201A05555555555",
+  "description": "PIDs supported [A1 - C0]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "A1",
+  "shortName": "NOxSensorCorrectedData",
+  "name": "S1_PID_A1_NOxSensorCorrectedData",
+  "requestCode": "0201A15555555555",
+  "description": "NOx sensor corrected data",
+  "unit": "ppm",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "A2",
+  "shortName": "CylinderFuelRate",
+  "name": "S1_PID_A2_CylinderFuelRate",
+  "requestCode": "0201A25555555555",
+  "description": "Cylinder fuel rate",
+  "unit": "mg/stroke",
+  "min": 0,
+  "max": 2048
+},{
+  "serviceID": "S1",
+  "parameterID": "A3",
+  "shortName": "EvapSystemVaporPressure",
+  "name": "S1_PID_A3_EvapSystemVaporPressure",
+  "requestCode": "0201A35555555555",
+  "description": "Evap system vapor pressure",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "A4",
+  "shortName": "TransmissionActualGear",
+  "name": "S1_PID_A4_TransmissionActualGear",
+  "requestCode": "0201A45555555555",
+  "description": "Transmission actual gear",
+  "unit": "ratio",
+  "min": 0,
+  "max": 66
+},{
+  "serviceID": "S1",
+  "parameterID": "A5",
+  "shortName": "ComDieselExhaustFluidDosing",
+  "name": "S1_PID_A5_ComDieselExhaustFluidDosing",
+  "requestCode": "0201A55555555555",
+  "description": "Cmd. diesel exhaust fluid dosing",
+  "unit": "%",
+  "min": 0,
+  "max": 128
+},{
+  "serviceID": "S1",
+  "parameterID": "A6",
+  "shortName": "Odometer",
+  "name": "S1_PID_A6_Odometer",
+  "requestCode": "0201A65555555555",
+  "description": "Odometer",
+  "unit": "km",
+  "min": 0,
+  "max": 429000000
+},{
+  "serviceID": "S1",
+  "parameterID": "A7",
+  "shortName": "NOxSensorConc3_4",
+  "name": "S1_PID_A7_NOxSensorConc3_4",
+  "requestCode": "0201A75555555555",
+  "description": "NOx concentration 3, 4",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "A8",
+  "shortName": "NOxSensorCorrectConc3_4",
+  "name": "S1_PID_A8_NOxSensorCorrectConc3_4",
+  "requestCode": "0201A85555555555",
+  "description": "NOx corrected concentration (3, 4)",
+  "unit": "N/A",
+  "min": 0,
+  "max": 0
+},{
+  "serviceID": "S1",
+  "parameterID": "C0",
+  "shortName": "PIDsSupported_C1_E0",
+  "name": "S1_PID_C0_PIDsSupported_C1_E0",
+  "requestCode": "0201C05555555555",
+  "description": "PIDs supported [C1 - E0]",
+  "unit": "Encoded",
+  "min": 0,
+  "max": 0
+}]

@@ -1,0 +1,20 @@
+﻿serviceID,parameterID,shortName,name,requestCode,description,unit,min,max
+s11,2105,BatteryMaxTemperature,S11_PID_05_BatteryMaxTemperature,01110N5555555555,Maximum temperature of the vehicle's battery pack.,°C,-40,80
+s11,2105,BatteryMinTemperature,S11_PID_05_BatteryMinTemperature,01110N5555555555,Minimum temperature of the vehicle's battery pack.,°C,-40,80
+s11,2105,BatteryModule6Temperature,S11_PID_05_BatteryModule6Temperature,01110N5555555555,Temperature of the 6th module within the battery pack.,°C,-40,80
+s11,2105,BatteryModule7Temperature,S11_PID_05_BatteryModule7Temperature,01110N5555555555,Temperature of the 7th module within the battery pack.,°C,-40,80
+s11,2105,BatteryModule8Temperature,S11_PID_05_BatteryModule8Temperature,01110N5555555555,Temperature of the 8th module within the battery pack.,°C,-40,80
+s11,2105,BatteryModule9Temperature,S11_PID_05_BatteryModule9Temperature,01110N5555555555,Temperature of the 9th module within the battery pack.,°C,-40,80
+s11,2105,BatteryModule10Temperature,S11_PID_05_BatteryModule10Temperature,01110N5555555555,Temperature of the 10th module within the battery pack.,°C,-40,80
+s11,2105,AvailableChargePower,S11_PID_05_AvailableChargePower,01110N5555555555,The maximum power available for charging the battery.,kW,0,98
+s11,2105,AvailableDischargePower,S11_PID_05_AvailableDischargePower,01110N5555555555,The maximum power available for discharging the battery.,kW,0,98
+s11,2105,BatteryCellVoltageDeviation,S11_PID_05_BatteryCellVoltageDeviation,01110N5555555555,The deviation or difference in voltage between individual cells within the battery pack,V,0,0.5
+s11,2105,QuickChargeNormalStatus,S11_PID_05_QuickChargeNormalStatus,01110N5555555555,The status indicating whether the quick charging feature is functioning normally.,%,0,96
+s11,2105,AirbagH/wireDuty,S11_PID_05_AirbagH/wireDuty,01110N5555555555,The duty cycle or control signal for the airbag hardware.,%,0,96
+s11,2105,BatteryHeaterTemp1,S11_PID_05_BatteryHeaterTemp1,01110N5555555555,The temperature readings from two different battery heater sensors.,°C,0,30
+s11,2105,BatteryHeaterTemp2,S11_PID_05_BatteryHeaterTemp2,01110N5555555555,The temperature readings from two different battery heater sensors.,°C,0,30
+s11,2105,StateofHealth(SOH)/MaxDeterioration,S11_PID_05_StateofHealth(SOH)/MaxDeterioration,01110N5555555555,The overall health or maximum deterioration level of the battery pack.,%,0,100
+s11,2105,MaxDeteriorationCellno. ,S11_PID_05_MaxDeteriorationCellno. ,01110N5555555555,The identification number of the cell within the battery pack that has the highest deterioration level.,-,0,96
+s11,2105,MinDeterioration,S11_PID_05_MinDeterioration,01110N5555555555,The minimum deterioration level among all cells in the battery pack.,%,0,100
+s11,2105,MinDeteriorationCellno. ,S11_PID_05_MinDeteriorationCellno. ,01110N5555555555,The identification number of the cell within the battery pack that has the lowest deterioration level.,-,0,96
+s11,2105,StateofCharge(SOC)Display ,S11_PID_05_StateofCharge(SOC)Display ,01110N5555555555,The current state of charge of the battery displayed to the user or driver.,%,0,100
